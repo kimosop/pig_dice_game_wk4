@@ -32,22 +32,32 @@
           <!--player one closes-->
           <div class="col-ls-1"></div>
           <div class="col-ls-4">
-            <img src="img/pig-dribbble.jpg" alt="pig" height="200" width="300">
-          </div>
+            
+            <div id="dice-image">
+                <img src="img/pig-dribbble.jpg" alt="pig" height="200" width="300" id="dice-pic">
+            </div>
+              <p><span class="player-one-rolls-one">You rolled a 1!</p>
+              <p><span class="player-one-rolls-one">Your turn is over.</p></span>
+              <!-- <p><span class="turn-total"></p> -->
+            <div id="winner">
+            </div><!--Winner closes-->
+          </div><!--Middle col closes-->
+          
+          
           <div class="col-ls-1"></div>
           <div class="player-col col-ls-3">
               <h2>PLAYER B</h2>
               <br>
-              <div id="player-one-buttons">
-                <button type="submit" class="btn btn-success" name="button" id="player-one-roll">ROLL</button>
-                <button type="submit" class="btn btn-danger" name="button" id="player-one-stay">HOLD</button>
+              <div id="player-two-buttons">
+                <button type="submit" class="btn btn-success" name="button" id="player-two-roll">ROLL</button>
+                <button type="submit" class="btn btn-danger" name="button" id="player-two-stay">HOLD</button>
               </div>
               <!-- display results -->
               <h3>Turn Total</h3>
-              <div id="player-one-running">
+              <div id="player-two-running">
               </div>
               <h3>Total Score:</h3>
-              <h4><span id="player-one-score"></span></h4>
+              <h4><span id="player-two-score"></span></h4>
             </div>
         </div>
       </div>
