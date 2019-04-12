@@ -2,7 +2,7 @@
 
 body {
   text-align: center;
-  background-color: #4e4949;
+  background-color: #0A4958;
   font-family: 'Muli', sans-serif;
   justify-content: center;
 }
@@ -12,11 +12,12 @@ body {
 }
 
 .player-col {
-  border: 2px rgb(135, 218, 221);
-  border-radius: 2px;
+  border: 2px aqua;
+  border-radius: 4%;
   height: 250px;
-  width:400px;
-  background:rgb(135, 218, 221);
+  width:450px;
+  background:aqua;
+  opacity: 0.8;
   
 }
 
@@ -24,8 +25,12 @@ h1 {
   color:white;
 }
 
-.rules{
-  color:white;
+.jumbotron{
+  color:black;
+  height:250px;
+  background-color: aqua;
+  position: center;
+  opacity: 0.8;
 }
 .player-one-rolls-one{
   color:white;
