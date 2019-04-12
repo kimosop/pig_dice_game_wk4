@@ -12,21 +12,18 @@
   <body>
     <br>
       <h1 id="title">The Pig Dice Game</h1>
-      <br>
-      <div class="rules">
+      <div class="jumbotron my-auto">
         <h5>Some Basic Rules</h5>
         <br>
-        
           <p>>>When you get a 1, Your Turn Total is 0 and the other player gets a chance to play</p>
           <p>>>When you press HOLD, your Turn Score is added to the Total Score and the other player gets a chance to play</p>
-          <p>>>Whoever Gets to a Total Score of 100 is the WINNER</p>
-        
+          <p>>>Whoever Gets to a Total Score of 100 first is the WINNER</p>  
       </div>
-      
       <br>
-      <div class="container">
+      <!-- gaming arena begins-->
+      <div class="container" id="players-display">
         <div class="row">
-          <div class="player-col col-ls-3">
+          <div class="player-col col-ls-4">
             <h2>PLAYER A</h2>
             <br>
             <div id="player-one-buttons">
@@ -42,14 +39,14 @@
           </div>
           <!--player one closes-->
           <!--Dice roll display-->
-          <div class="col-ls-3">
+          <div class="col-ls-4">
             <div id="dice-image">
                 <img src="img/bad-pig-icon.png" alt="pig" height="200" width="200" id="dice-pic">
             </div>
             <div id="winner"></div>
           </div><!--Dice roll display closes-->
           <!--Player B starts-->
-          <div class="player-col col-ls-3">
+          <div class="player-col col-ls-4">
               <h2>PLAYER B</h2>
               <br>
               <div id="player-two-buttons">
@@ -57,14 +54,15 @@
                 <button type="submit" class="btn btn-danger" name="button" id="player-two-stay">HOLD</button>
               </div>
               <!-- display results for player B -->
-              <h5>Turn Total</h5>
+              <h3>Turn Total</h3>
               <div id="player-two-running">
               </div>
-              <h5>Total Score:</h5>
+              <h3>Total Score:</h3>
               <h4><span id="player-two-score"></span></h4>
             </div>
         </div>
       </div>
+      <!-- gaming arena ends-->
 
   </body>
 </html>
