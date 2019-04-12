@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -11,13 +11,14 @@
   </head>
   <body>
     <br>
-      <h1 id="title">The Pig Dice Game</h1>
+      <h1 id="title" class="bg-danger">The Pig Dice Game</h1>
       <div class="jumbotron my-auto">
         <h5>Some Basic Rules</h5>
         <br>
           <p>>>When you get a 1, Your Turn Total is 0 and the other player gets a chance to play</p>
           <p>>>When you press HOLD, your Turn Score is added to the Total Score and the other player gets a chance to play</p>
-          <p>>>Whoever Gets to a Total Score of 100 first is the WINNER</p>  
+          <p>>>Whoever Gets to a Total Score of 100 first is the WINNER</p> 
+          <p>....>>>PRESS 'PLAY' TO START<<<....</p> 
       </div>
       <br>
       <!-- gaming arena begins-->
@@ -28,7 +29,7 @@
             <br>
             <div id="player-one-buttons">
               <button type="submit" class="btn btn-success" name="button" id="player-one-roll">ROLL</button>
-              <button type="submit" class="btn btn-danger" name="button" id="player-one-stay">HOLD</button>
+              <button type="submit" class="btn btn-danger" name="button" id="player-one-hold">HOLD</button>
             </div>
             <!-- display results for Player B-->
             <h3>Turn Total</h3>
@@ -41,7 +42,7 @@
           <!--Dice roll display-->
           <div class="col-ls-4">
             <div id="dice-image">
-                <img src="img/bad-pig-icon.png" alt="pig" height="200" width="200" id="dice-pic">
+                <img src="img/Bad-Piggies-icon.png" alt="pig" height="200" width="200" id="dice-pic">
             </div>
             <div id="winner"></div>
           </div><!--Dice roll display closes-->
@@ -51,7 +52,7 @@
               <br>
               <div id="player-two-buttons">
                 <button type="submit" class="btn btn-success" name="button" id="player-two-roll">ROLL</button>
-                <button type="submit" class="btn btn-danger" name="button" id="player-two-stay">HOLD</button>
+                <button type="submit" class="btn btn-danger" name="button" id="player-two-hold">HOLD</button>
               </div>
               <!-- display results for player B -->
               <h3>Turn Total</h3>
@@ -63,6 +64,9 @@
         </div>
       </div>
       <!-- gaming arena ends-->
+      <div class="footer">
+        <p>Copyright. Kimosop2019</p>
+      </div>
 
   </body>
 </html>
