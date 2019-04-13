@@ -16,7 +16,7 @@ The first player to score 100 is the WINNER.
 
  | Behavior                                       |  Input | Output    |
  | ---------------------------------------------- | ------ | --------- |
- | Player rolls die to get a random number    | Click button      | 5      |
+ | Player rolls die to get a random number    | Click button      | 3      |
  | When player rolls 1, turn is over and lose all current points from turn  | 1 | Hide player's buttons, show other player's buttons  |
  | When player rolls any other number add to turn total | 3     | 3  |
  | Player can end turn pressing "HOLD", and turn total is added to banked total        | 12      | 27         |
