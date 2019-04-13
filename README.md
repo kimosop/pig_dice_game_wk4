@@ -1,7 +1,6 @@
 # The_Pig Dice_Game
 [Kimosop Chepkoit] https://github.com/kimosop/pig_dice_game_wk4
 
-#### By **Rose Sponseller and Brian Rush, May 10 & 11, 2017**
 
 ## Description
 
